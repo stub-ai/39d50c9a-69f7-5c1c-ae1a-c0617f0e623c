@@ -1,0 +1,1 @@
+{"config":{"system_prompt":"","model":"","temperature":0,"top_p":1,"framework":"nextjs-page-tailwind"},"prompts":[{"prompt":"Create a laser cut service app where the user can upload a dxf, pdf or any vector file, create a job, order the job and pay.","md5":"d7034e1812b131e7455e98b537a1ea46"}]}
