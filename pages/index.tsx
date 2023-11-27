@@ -1,13 +1,17 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import React from 'react';
+import Header from '../components/Header';
+import Login from '../components/Login';
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+const Home = () => {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-    </main>
-  )
-}
+    <div>
+      <Header />
+      <main className="p-5">
+        <h2 className="text-xl mb-4">Welcome to Laser Cut Service</h2>
+        <Login />
+      </main>
+    </div>
+  );
+};
+
+export default Home;
